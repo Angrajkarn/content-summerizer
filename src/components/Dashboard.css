@@ -1,0 +1,126 @@
+.dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #d3482e;
+}
+
+.error-msg {
+    color: #d32f2f;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.summary-options {
+    margin-bottom: 20px;
+}
+
+.summary-length-label {
+    margin-right: 10px;
+}
+
+.summary-length-select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.summary-btn {
+    padding: 8px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.summary-btn:hover {
+    background-color: #45a049;
+}
+
+.export-options {
+    margin-top: 20px;
+}
+
+.export-btn {
+    padding: 8px 20px;
+    margin-right: 10px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.export-btn:hover {
+    background-color: #005b7f;
+}
+
+.history-toggle-btn {
+    padding: 8px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.history-toggle-btn:hover {
+    background-color: #333;
+}
+
+.history-toggle-btn:active {
+    transform: translateY(1px);
+}
+
+@media (max-width: 600px) {
+    .dashboard {
+        padding: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .logout-btn {
+        margin-top: 10px;
+    }
+}
